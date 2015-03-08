@@ -1,0 +1,46 @@
+@charset "utf-8";
+.navbar{
+    margin-bottom: 0px;
+}
+.carousel{
+    margin-bottom: 60px;
+    height: 500px;
+
+}
+.carousel .item{
+    height: 500px;
+}
+.carousel .item img{
+
+    width: 100%;
+}
+.carousel-caption p{
+    font-size: 16px;
+    line-height: 1.4;
+}
+.context .col-md-4{
+    text-align: center;
+}
+.feature {
+    padding: 30px 0;
+}
+.feature-heading{
+    font-size: 50px;
+    color: #2a6496;
+}
+@media (max-width: 768px) {
+    .carousel{
+        height: 300px;
+    }
+    .carousel .item{
+        height: 300px;
+    }
+    .carousel .item img{
+        height: 300px;
+    }
+}
+@media (min-width: 992px) {
+    .feature-heading{
+        margin-top: 120px;
+    }
+}
